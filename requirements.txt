@@ -2,3 +2,7 @@ fastapi[standard]==0.70.0
 httpx[socks]==0.23.3
 uvicorn==0.22.0
 SQLAlchemy==2.0.13
+APScheduler==3.10.1
+loguru==0.7.0
+pydantic==1.10.7
+starlette==0.16.0
