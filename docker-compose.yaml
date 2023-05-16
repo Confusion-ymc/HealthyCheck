@@ -8,6 +8,6 @@ services:
     restart: always
     container_name: healthy_check
     volumes:
-      - ./healthyCheck:code/database
+      - ./healthyCheck:/code/database
     ports:
       - "8000:8000"
