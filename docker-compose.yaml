@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  healthy_check:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: healthy_check
+    restart: always
+    container_name: healthy_check
+    volumes:
+      - ./healthyCheck:code/database
+    ports:
+      - "8000:8000"
